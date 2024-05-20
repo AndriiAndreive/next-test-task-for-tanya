@@ -38,3 +38,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Create a gradient button
+```bash
+<div className="flex max-w-sm rounded-full bg-gradient-to-br from-[#963488] via-[#FC6F32] to-[#FF4A59] p-0.5 shadow-lg">
+    <button className="flex-1 font-bold text-md px-6 py-3 rounded-full bg-[#0a0c11] text-white hover:bg-gradient-to-br">Button</button>
+</div>
+```
+
+## Create a gradient text
+```
+<h1 className="bg-gradient-to-br from-[#963488] via-[#FC6F32] to-[#FF4A59] inline-block text-transparent bg-clip-text text-9xl">A new economic primitive for funding decentralized AI</h1>
+```
+
+## Create a gradient background
+```
+<div className="bg-gradient-to-br from-[#963488] via-[#FC6F32] to-[#FF4A59]">A new economic primitive for funding decentralized AI</div>
+```
